@@ -23,7 +23,6 @@
 		178D81F71F3DADBF0055E116 /* JSCMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D81F61F3DADBF0055E116 /* JSCMessageViewController.swift */; };
 		178D81F91F3DADCC0055E116 /* JSCMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D81F81F3DADCC0055E116 /* JSCMeViewController.swift */; };
 		178D81FC1F3DB3350055E116 /* JSCHttptool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D81FB1F3DB3350055E116 /* JSCHttptool.swift */; };
-		178D81FE1F3DC2BA0055E116 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D81FD1F3DC2BA0055E116 /* TabBarController.swift */; };
 		76CBE6F046012B266A5FE216 /* Pods_jisuchou.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC02C0BF624DE0089B690B9 /* Pods_jisuchou.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,7 +66,6 @@
 		178D81F61F3DADBF0055E116 /* JSCMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSCMessageViewController.swift; sourceTree = "<group>"; };
 		178D81F81F3DADCC0055E116 /* JSCMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSCMeViewController.swift; sourceTree = "<group>"; };
 		178D81FB1F3DB3350055E116 /* JSCHttptool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSCHttptool.swift; sourceTree = "<group>"; };
-		178D81FD1F3DC2BA0055E116 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		4B5EFA24111084405DD4E808 /* Pods-jisuchou.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jisuchou.release.xcconfig"; path = "Pods/Target Support Files/Pods-jisuchou/Pods-jisuchou.release.xcconfig"; sourceTree = "<group>"; };
 		99DE13BBE97CB5A03DCEB84C /* Pods-jisuchou.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jisuchou.debug.xcconfig"; path = "Pods/Target Support Files/Pods-jisuchou/Pods-jisuchou.debug.xcconfig"; sourceTree = "<group>"; };
 		AEC02C0BF624DE0089B690B9 /* Pods_jisuchou.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jisuchou.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,7 +135,6 @@
 				178D81DD1F3DA7D10055E116 /* JSCWelcomeViewController.swift */,
 				178D81DE1F3DA7D10055E116 /* JSCWelcomeViewController.xib */,
 				178D81E61F3DAC910055E116 /* config.swift */,
-				178D81FD1F3DC2BA0055E116 /* TabBarController.swift */,
 			);
 			path = jisuchou;
 			sourceTree = "<group>";
@@ -414,7 +411,6 @@
 				178D81DF1F3DA7D10055E116 /* JSCWelcomeViewController.swift in Sources */,
 				178D81FC1F3DB3350055E116 /* JSCHttptool.swift in Sources */,
 				178D81F91F3DADCC0055E116 /* JSCMeViewController.swift in Sources */,
-				178D81FE1F3DC2BA0055E116 /* TabBarController.swift in Sources */,
 				178D81F51F3DADAD0055E116 /* JSCHomeViewController.swift in Sources */,
 				178D81AE1F3DA0DD0055E116 /* AppDelegate.swift in Sources */,
 			);

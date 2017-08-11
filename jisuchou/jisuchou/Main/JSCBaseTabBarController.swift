@@ -12,7 +12,7 @@ class JSCBaseTabBarController: UITabBarController {
 
     override class func initialize() {
         var attrs = [String: NSObject]()
-        attrs[NSForegroundColorAttributeName] = UIColor.red
+        attrs[NSForegroundColorAttributeName] = UIColor.lightText
         // 设置tabBar字体颜色
         UITabBarItem.appearance().setTitleTextAttributes(attrs, for:.selected)
     }
@@ -34,8 +34,8 @@ class JSCBaseTabBarController: UITabBarController {
     func addChildViewControllers() {
         
         setupOneChildViewController("首页", image: "Assets_Tabbar_Icon_Home", selectedImage: "Assets_Tabbar_Icon_Home_Selected", controller: JSCHomeViewController.init())
-        setupOneChildViewController("通知", image: "Assets_Tabbar_Icon_Dynamic", selectedImage: "Assets_Tabbar_Icon_Dynamic_Selected", controller: JSCMessageViewController.init())
-        setupOneChildViewController("娱乐", image: "Assets_Tabbar_Icon_Me", selectedImage: "Assets_Tabbar_Icon_Me_Selected", controller: JSCMeViewController.init())
+        setupOneChildViewController("通知", image: "menu_goddess_dy", selectedImage: "menu_goddess_dyse", controller: JSCMessageViewController.init())
+        setupOneChildViewController("我的", image: "Icon_Me", selectedImage: "Icon_Me_Selected", controller: JSCMeViewController.init())
     }
     
     

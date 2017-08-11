@@ -9,9 +9,13 @@
 import Foundation
 import UIKit
 
-
+let kStatusBarH: CGFloat = 20
+let kNavigationBarH: CGFloat = 44
+let kTabBarH: CGFloat = 49
 let kScreenW = UIScreen.main.bounds.width
 let kScreenH = UIScreen.main.bounds.height
+let BGCOLOR: UIColor = UIColor(gray: 244)
+
 let kThemeColor   = UIColor(red: 63.0/255.0, green: 67.0/255.0, blue: 76.0/255.0, alpha: 1.0)
 
 /// RGBA的颜色设置

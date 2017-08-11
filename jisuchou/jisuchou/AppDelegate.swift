@@ -24,7 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //            window?.rootViewController = YMNewfeatureViewController()
 //            UserDefaults.standard.set(true, forKey: YMFirstLaunch)
 //        } else {
-            window?.rootViewController = TabBarController()
+            window?.rootViewController = JSCBaseTabBarController()
 //        }
 
         return true
