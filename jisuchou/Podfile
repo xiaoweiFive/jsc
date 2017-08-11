@@ -1,0 +1,29 @@
+platform :ios, ‘8.0’
+use_frameworks!
+
+target ‘jisuchou’ do
+    pod 'Alamofire'
+    pod 'HandyJSON'
+    pod 'DeviceGuru'
+    pod 'Proposer'
+    pod 'Kingfisher'
+
+    pod 'SwiftyUserDefaults'
+    
+    pod "SVProgressHUD"
+    pod 'SwifterSwift'
+    pod 'FDFullscreenPopGesture'
+    pod 'FDStackView'
+    pod 'IQKeyboardManagerSwift'
+    
+    pod 'Moya'
+    pod "ESPullToRefresh"
+end
+
+post_install do |installer_representation|
+    installer_representation.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['ARCHS'] = 'armv7 arm64'
+        end
+    end
+end

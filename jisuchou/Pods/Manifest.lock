@@ -1,0 +1,54 @@
+PODS:
+  - Alamofire (4.4.0)
+  - DeviceGuru (2.0.1)
+  - ESPullToRefresh (2.6)
+  - FDFullscreenPopGesture (1.1)
+  - FDStackView (1.0)
+  - HandyJSON (1.6.1)
+  - IQKeyboardManagerSwift (4.0.9)
+  - Kingfisher (3.6.1)
+  - Moya (8.0.3):
+    - Moya/Core (= 8.0.3)
+  - Moya/Core (8.0.3):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - Proposer (1.1.0)
+  - Result (3.2.1)
+  - SVProgressHUD (2.1.2)
+  - SwifterSwift (1.6.3)
+  - SwiftyUserDefaults (3.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - DeviceGuru
+  - ESPullToRefresh
+  - FDFullscreenPopGesture
+  - FDStackView
+  - HandyJSON
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - Moya
+  - Proposer
+  - SVProgressHUD
+  - SwifterSwift
+  - SwiftyUserDefaults
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  DeviceGuru: cc39d2a070144c9e955edd570b69e220da08f271
+  ESPullToRefresh: 85f4990acf87f78c6a1466bbbee7a75d7de24db9
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  FDStackView: 3a4bbe0ce9c35e974246a585168b9da8c32213f1
+  HandyJSON: dcc98115467462a4749db81bc8a9052607600bdf
+  IQKeyboardManagerSwift: 2eefe6c429b86aa08bfbc1b5c891164d754adf91
+  Kingfisher: 2f31cb75f3e98d3d4c406cbdcd9b263e956cfa67
+  Moya: d3721622e3cc0cc2f038d69a258686f0b66e7252
+  Proposer: 422c693b1917a461af30e7139b0d05eefe999e16
+  Result: 2453a22e5c5b11c0c3a478736e82cd02f763b781
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  SwifterSwift: 76bf942a17769ebf8fb77f89138cbbd525c039c0
+  SwiftyUserDefaults: 0f1d45fc3aafb9064dac661e367f8f83fe21a4b4
+
+PODFILE CHECKSUM: 02ed3f5f0c3caca2b8f35eedb44705d49e1608db
+
+COCOAPODS: 1.2.0.beta.3
