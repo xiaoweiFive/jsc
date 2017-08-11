@@ -9,11 +9,21 @@
 /* Begin PBXBuildFile section */
 		178D81AE1F3DA0DD0055E116 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D81AD1F3DA0DD0055E116 /* AppDelegate.swift */; };
 		178D81B01F3DA0DD0055E116 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D81AF1F3DA0DD0055E116 /* ViewController.swift */; };
-		178D81B31F3DA0DD0055E116 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178D81B11F3DA0DD0055E116 /* Main.storyboard */; };
-		178D81B51F3DA0DD0055E116 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 178D81B41F3DA0DD0055E116 /* Assets.xcassets */; };
 		178D81B81F3DA0DD0055E116 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178D81B61F3DA0DD0055E116 /* LaunchScreen.storyboard */; };
 		178D81C31F3DA0DE0055E116 /* jisuchouTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D81C21F3DA0DE0055E116 /* jisuchouTests.swift */; };
 		178D81CE1F3DA0DE0055E116 /* jisuchouUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D81CD1F3DA0DE0055E116 /* jisuchouUITests.swift */; };
+		178D81DC1F3DA6AE0055E116 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 178D81DB1F3DA6AE0055E116 /* Images.xcassets */; };
+		178D81DF1F3DA7D10055E116 /* JSCWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D81DD1F3DA7D10055E116 /* JSCWelcomeViewController.swift */; };
+		178D81E01F3DA7D10055E116 /* JSCWelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178D81DE1F3DA7D10055E116 /* JSCWelcomeViewController.xib */; };
+		178D81E31F3DAC390055E116 /* JSCBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D81E21F3DAC390055E116 /* JSCBaseViewController.swift */; };
+		178D81E51F3DAC5D0055E116 /* JSCBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D81E41F3DAC5D0055E116 /* JSCBaseNavigationController.swift */; };
+		178D81E71F3DAC910055E116 /* config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D81E61F3DAC910055E116 /* config.swift */; };
+		178D81E91F3DACCB0055E116 /* JSCBaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D81E81F3DACCB0055E116 /* JSCBaseTabBarController.swift */; };
+		178D81F51F3DADAD0055E116 /* JSCHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D81F41F3DADAD0055E116 /* JSCHomeViewController.swift */; };
+		178D81F71F3DADBF0055E116 /* JSCMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D81F61F3DADBF0055E116 /* JSCMessageViewController.swift */; };
+		178D81F91F3DADCC0055E116 /* JSCMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D81F81F3DADCC0055E116 /* JSCMeViewController.swift */; };
+		178D81FC1F3DB3350055E116 /* JSCHttptool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D81FB1F3DB3350055E116 /* JSCHttptool.swift */; };
+		178D81FE1F3DC2BA0055E116 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D81FD1F3DC2BA0055E116 /* TabBarController.swift */; };
 		76CBE6F046012B266A5FE216 /* Pods_jisuchou.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC02C0BF624DE0089B690B9 /* Pods_jisuchou.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,8 +48,6 @@
 		178D81AA1F3DA0DD0055E116 /* jisuchou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jisuchou.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		178D81AD1F3DA0DD0055E116 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		178D81AF1F3DA0DD0055E116 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		178D81B21F3DA0DD0055E116 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		178D81B41F3DA0DD0055E116 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		178D81B71F3DA0DD0055E116 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		178D81B91F3DA0DD0055E116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		178D81BE1F3DA0DE0055E116 /* jisuchouTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jisuchouTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +56,18 @@
 		178D81C91F3DA0DE0055E116 /* jisuchouUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jisuchouUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		178D81CD1F3DA0DE0055E116 /* jisuchouUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jisuchouUITests.swift; sourceTree = "<group>"; };
 		178D81CF1F3DA0DE0055E116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		178D81DB1F3DA6AE0055E116 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		178D81DD1F3DA7D10055E116 /* JSCWelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSCWelcomeViewController.swift; sourceTree = "<group>"; };
+		178D81DE1F3DA7D10055E116 /* JSCWelcomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSCWelcomeViewController.xib; sourceTree = "<group>"; };
+		178D81E21F3DAC390055E116 /* JSCBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSCBaseViewController.swift; sourceTree = "<group>"; };
+		178D81E41F3DAC5D0055E116 /* JSCBaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSCBaseNavigationController.swift; sourceTree = "<group>"; };
+		178D81E61F3DAC910055E116 /* config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = config.swift; sourceTree = "<group>"; };
+		178D81E81F3DACCB0055E116 /* JSCBaseTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSCBaseTabBarController.swift; sourceTree = "<group>"; };
+		178D81F41F3DADAD0055E116 /* JSCHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSCHomeViewController.swift; sourceTree = "<group>"; };
+		178D81F61F3DADBF0055E116 /* JSCMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSCMessageViewController.swift; sourceTree = "<group>"; };
+		178D81F81F3DADCC0055E116 /* JSCMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSCMeViewController.swift; sourceTree = "<group>"; };
+		178D81FB1F3DB3350055E116 /* JSCHttptool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSCHttptool.swift; sourceTree = "<group>"; };
+		178D81FD1F3DC2BA0055E116 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		4B5EFA24111084405DD4E808 /* Pods-jisuchou.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jisuchou.release.xcconfig"; path = "Pods/Target Support Files/Pods-jisuchou/Pods-jisuchou.release.xcconfig"; sourceTree = "<group>"; };
 		99DE13BBE97CB5A03DCEB84C /* Pods-jisuchou.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jisuchou.debug.xcconfig"; path = "Pods/Target Support Files/Pods-jisuchou/Pods-jisuchou.debug.xcconfig"; sourceTree = "<group>"; };
 		AEC02C0BF624DE0089B690B9 /* Pods_jisuchou.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jisuchou.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,12 +124,20 @@
 		178D81AC1F3DA0DD0055E116 /* jisuchou */ = {
 			isa = PBXGroup;
 			children = (
+				178D81F31F3DAD600055E116 /* Home */,
+				178D81EE1F3DAD440055E116 /* Me */,
+				178D81EF1F3DAD440055E116 /* Msg */,
+				178D81E11F3DAC210055E116 /* Main */,
+				178D81FA1F3DB3220055E116 /* Tool */,
 				178D81AD1F3DA0DD0055E116 /* AppDelegate.swift */,
 				178D81AF1F3DA0DD0055E116 /* ViewController.swift */,
-				178D81B11F3DA0DD0055E116 /* Main.storyboard */,
-				178D81B41F3DA0DD0055E116 /* Assets.xcassets */,
+				178D81DB1F3DA6AE0055E116 /* Images.xcassets */,
 				178D81B61F3DA0DD0055E116 /* LaunchScreen.storyboard */,
 				178D81B91F3DA0DD0055E116 /* Info.plist */,
+				178D81DD1F3DA7D10055E116 /* JSCWelcomeViewController.swift */,
+				178D81DE1F3DA7D10055E116 /* JSCWelcomeViewController.xib */,
+				178D81E61F3DAC910055E116 /* config.swift */,
+				178D81FD1F3DC2BA0055E116 /* TabBarController.swift */,
 			);
 			path = jisuchou;
 			sourceTree = "<group>";
@@ -130,6 +158,48 @@
 				178D81CF1F3DA0DE0055E116 /* Info.plist */,
 			);
 			path = jisuchouUITests;
+			sourceTree = "<group>";
+		};
+		178D81E11F3DAC210055E116 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				178D81E21F3DAC390055E116 /* JSCBaseViewController.swift */,
+				178D81E41F3DAC5D0055E116 /* JSCBaseNavigationController.swift */,
+				178D81E81F3DACCB0055E116 /* JSCBaseTabBarController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		178D81EE1F3DAD440055E116 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				178D81F81F3DADCC0055E116 /* JSCMeViewController.swift */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		178D81EF1F3DAD440055E116 /* Msg */ = {
+			isa = PBXGroup;
+			children = (
+				178D81F61F3DADBF0055E116 /* JSCMessageViewController.swift */,
+			);
+			path = Msg;
+			sourceTree = "<group>";
+		};
+		178D81F31F3DAD600055E116 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				178D81F41F3DADAD0055E116 /* JSCHomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		178D81FA1F3DB3220055E116 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				178D81FB1F3DB3350055E116 /* JSCHttptool.swift */,
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 		336681DCD4B8E651E35EF50A /* Frameworks */ = {
@@ -214,6 +284,7 @@
 		178D81A21F3DA0DD0055E116 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = JSC;
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = qingsongchou;
@@ -259,9 +330,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				178D81E01F3DA7D10055E116 /* JSCWelcomeViewController.xib in Resources */,
+				178D81DC1F3DA6AE0055E116 /* Images.xcassets in Resources */,
 				178D81B81F3DA0DD0055E116 /* LaunchScreen.storyboard in Resources */,
-				178D81B51F3DA0DD0055E116 /* Assets.xcassets in Resources */,
-				178D81B31F3DA0DD0055E116 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,7 +405,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				178D81E31F3DAC390055E116 /* JSCBaseViewController.swift in Sources */,
+				178D81E91F3DACCB0055E116 /* JSCBaseTabBarController.swift in Sources */,
+				178D81E51F3DAC5D0055E116 /* JSCBaseNavigationController.swift in Sources */,
 				178D81B01F3DA0DD0055E116 /* ViewController.swift in Sources */,
+				178D81F71F3DADBF0055E116 /* JSCMessageViewController.swift in Sources */,
+				178D81E71F3DAC910055E116 /* config.swift in Sources */,
+				178D81DF1F3DA7D10055E116 /* JSCWelcomeViewController.swift in Sources */,
+				178D81FC1F3DB3350055E116 /* JSCHttptool.swift in Sources */,
+				178D81F91F3DADCC0055E116 /* JSCMeViewController.swift in Sources */,
+				178D81FE1F3DC2BA0055E116 /* TabBarController.swift in Sources */,
+				178D81F51F3DADAD0055E116 /* JSCHomeViewController.swift in Sources */,
 				178D81AE1F3DA0DD0055E116 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,14 +452,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		178D81B11F3DA0DD0055E116 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				178D81B21F3DA0DD0055E116 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		178D81B61F3DA0DD0055E116 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -491,6 +564,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = jisuchou/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = qingsongchou.jisuchou;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -504,6 +578,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = jisuchou/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = qingsongchou.jisuchou;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -584,6 +659,7 @@
 				178D81D41F3DA0DE0055E116 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		178D81D51F3DA0DE0055E116 /* Build configuration list for PBXNativeTarget "jisuchouTests" */ = {
 			isa = XCConfigurationList;
@@ -592,6 +668,7 @@
 				178D81D71F3DA0DE0055E116 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		178D81D81F3DA0DE0055E116 /* Build configuration list for PBXNativeTarget "jisuchouUITests" */ = {
 			isa = XCConfigurationList;
@@ -600,6 +677,7 @@
 				178D81DA1F3DA0DE0055E116 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
